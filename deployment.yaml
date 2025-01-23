@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello-nginx
-        image: quay.io/redhattraining/hello-world-nginx:latest
+        image: quay.io/redhattraining/hello-world-nginx:v1.0
         ports:
         - containerPort: 80
 
