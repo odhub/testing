@@ -2,7 +2,7 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: hello-nginx
-  namespace: hello-nginx
+  namespace: cicd
 spec:
   to:
     kind: Service
