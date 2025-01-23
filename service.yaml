@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: hello-nginx
-  namespace: hello-nginx
+  namespace: cicd
 spec:
   selector:
     app: hello-nginx
