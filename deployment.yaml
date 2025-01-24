@@ -4,7 +4,7 @@ metadata:
   name: hello-nginx
   namespace: cicd
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: hello-nginx
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello-nginx
-        image: quay.io/redhattraining/hello-world-nginx:v1.0
+        image: quay.io/redhattraining/hello-world-nginx:latest
         ports:
         - containerPort: 80
 
